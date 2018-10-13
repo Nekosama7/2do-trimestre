@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class Primerclase : MonoBehaviour
 {
-   class VeryVeryFirstClass
+
+    public int x, y, resultado;
+
+     void Start()
     {
-        public int num;
+        
+        
+        x = 25;
+        y = 30;
+        resultado = x + y;
+        
+        print("el resultado es:" + resultado);
+       
     }
 
-    private void Start()
-    {
-        VeryVeryFirstClass firstClass = new VeryVeryFirstClass();
-        firstClass.num = 1;
-    }
 }
 
 
