@@ -237,16 +237,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba5556e11d078734092921fa90ba1b49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maicol: 0
-  arnold: 0
-  stiv: 0
-  checho: 0
-  flover: 0
-  chucho: 0
-  manuel: 0
-  andres: 0
-  santiago: 0
-  willy: 0
+  maicol: 5
+  arnold: 8
+  stiv: 15
+  checho: 75
+  flover: 28
+  chucho: 88
+  manuel: 92
+  andres: 48
+  santiago: 72
+  willy: 16
   "a\xF1os": 0
 --- !u!114 &526350363
 MonoBehaviour:
@@ -254,23 +254,23 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 526350359}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cb81a928abe66d4897773df012e812a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maicol: 0
-  arnold: 0
-  stiv: 0
-  checho: 0
-  flover: 0
-  chucho: 0
-  manuel: 0
-  andres: 0
-  santiago: 0
-  willy: 0
-  x: 0
-  y: 0
+  maicol: 12
+  arnold: 15
+  stiv: 18
+  checho: 17
+  flover: 19
+  chucho: 11
+  manuel: 15
+  andres: 12
+  santiago: 12
+  willy: 12
+  x: 16
+  y: 72
   promedio: 0
 --- !u!114 &526350364
 MonoBehaviour:
@@ -289,7 +289,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 526350359}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb13e75e1fd2c4446bd148ba5bce3f10, type: 3}
   m_Name: 

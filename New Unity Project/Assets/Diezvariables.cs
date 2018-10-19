@@ -9,6 +9,8 @@ public class Diezvariables : MonoBehaviour {
 
     void Start ()
     {
+        imprimirbienprron();
+    
         maicol = 17;
         arnold = 38;
         stiv = 21;
@@ -19,17 +21,15 @@ public class Diezvariables : MonoBehaviour {
         flover = 23;
         santiago = 24;
         willy = 28;
+        
+	}
+	
+	public void imprimirbienprron()
+    {
         años = maicol + arnold + stiv + checho + chucho + manuel + andres + flover + santiago + willy;
 
         print("El resultado es:" + años);
-
-
-
-
-
-	}
-	
-	
+    }
 
 
 

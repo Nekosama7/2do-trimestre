@@ -8,6 +8,8 @@ public class Promediodedocevariables : MonoBehaviour
 
     void Start()
     {
+        imprimir();
+
         maicol = 17.5;
         arnold = 38.6;
         stiv = 21.6;
@@ -20,9 +22,12 @@ public class Promediodedocevariables : MonoBehaviour
         willy = 28.1;
         x = 22.65;
         y = 26.28;
-
-
+         
+    }
+    public void imprimir()
+    {
         promedio = (maicol + arnold + stiv + checho + chucho + manuel + andres + flover + santiago + willy + x + y) / 12;
+
 
         print("El promedio de años es:" + promedio);
     }
